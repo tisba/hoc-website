@@ -22,11 +22,6 @@ body {
   outline: none;
 }
 
- @font-face {
-  font-family: 'Lobster 1.4';
-  src: url('Lobster 1.4.otf');
-  font-style: normal;
-}
 #welcome .inner, #about-me .inner, #my-work .inner, #method .inner, #blog .inner, #contact .inner #footer .inner {
   padding: 0 10px 10px 10px;
   margin: 0;
@@ -69,7 +64,7 @@ h6 {
 /* ===== Heading Styles ===== */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lobster 1.4";
+  font-family: "Roadstar-Italic";
   font-weight: normal;
 }
 
@@ -88,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   z-index: 1001;
   border-bottom: 1px solid #aeaeae;
-  font-family: "Lobster 1.4";
+  font-family: "Roadstar-Italic";
 }
 
 #header .inner {
@@ -110,15 +105,15 @@ h1, h2, h3, h4, h5, h6 {
 /* ===== Navigation Styles ===== */
 
 #navigation {
-  font-size: 24px;
+  font-size: 36px;
   width: 1000px;
   margin: auto;
   position: relative;
-  padding-top: 55px;
+  padding-top: 42px;
 }
 
 ul.main-menu {
-  padding-left: 75px;
+  padding-left: 64px;
 }
 
 ul.main-menu li {
@@ -174,8 +169,19 @@ ul.main-menu li.gap {
 #welcome .inner {
   position: relative;
   margin: 0 auto;
+  width: 1000px;
+  height: 650px;
+}
+
+#welcome .inner #home-office-label {
+  background-image: url("../img/label.png");
+  background-position: bottom center no-repeat;
+  display: block;
   width: 980px;
-  height: 800px;
+  height: 189px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
 
 /* ===== About Me Section ===== */
@@ -700,7 +706,7 @@ a.red-btn {
   -ms-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
-  font-family: "Lobster 1.4";
+  font-family: "Roadstar-Italic";
   font-weight: normal;
   color: #fff;
   font-size: 20px;
@@ -719,7 +725,7 @@ a.red-btn {
   -ms-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
-  font-family: "Lobster 1.4";
+  font-family: "Roadstar-Italic";
   font-weight: normal;
   color: #fff;
   font-size: 20px;
