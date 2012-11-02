@@ -1003,11 +1003,6 @@ label.error {
   transition: all 0.8s ease;
 }
 
-#contact .inner .social ul li:hover {
-  float: left;
-  padding-right: 10px;
-  padding-top:5px;
-}
 /* Styles for Google Map using iFrames */
 
 #contact .inner .map {
@@ -1050,7 +1045,6 @@ label.error {
   position: relative;
   margin: 0 auto;
   width: 980px;
-  height: 800px;
   padding-top: 10px;
 }
 
@@ -1089,6 +1083,19 @@ label.error {
   color: #fff;
 }
 
+/*===== Skyline Footer ===== */
+
+#skyline-footer {
+  background: url("../img/footer-pattern.png") #d6d6d6 repeat;
+}
+
+#skyline-footer .inner #skyline {
+  background: url("../img/cologne-skyline.png") no-repeat;
+  width: 950px;
+  height: 251px;
+  margin: auto;
+  margin-top: 150px;
+}
 
 /* ===== Page Splitter Stiching - Dividing the content boxes ===== */
 
