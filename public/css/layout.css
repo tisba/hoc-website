@@ -652,10 +652,13 @@ a.red-btn {
   text-decoration: none;
 }
 
-#blog .inner .posts .single-post a.text-link {
+a.text-link {
   color: #d12828;
   text-decoration: none;
   font-style: italic;
+}
+
+#blog .inner .posts .single-post a.text-link {
   margin-left: 55px;
 }
 
@@ -887,7 +890,7 @@ a.red-btn {
   position: relative;
   margin: 0 auto;
   width: 980px;
-  height: 870px;
+  height: 550px;
   display: block;
 }
 
@@ -962,7 +965,7 @@ label.error {
 #contact .inner .details {
   margin-top: 60px;
   float: left;
-  width: 500px;
+  width: 350px;
 }
 
 #contact .inner .details ul {
@@ -980,7 +983,9 @@ label.error {
 }
 
 #contact .inner .social {
-  margin-top: 40px;
+  padding-top: 20px;
+  margin-left: 115px;
+  width: 70px;
 }
 
 #contact .inner .social ul {
@@ -1006,7 +1011,6 @@ label.error {
 /* Styles for Google Map using iFrames */
 
 #contact .inner .map {
-  margin-top: 78px;
   float: left;
   border: 3px solid #fff;
   -webkit-border-radius: 3px;
@@ -1015,9 +1019,9 @@ label.error {
 }
 
 #contact .inner .map iframe{
-  height: 210px; 
+  width: 600px;
+  height: 350px; 
   border: 0; 
-  width: 473px;
   overflow: hidden;
 }
 /* Go Up button at the bottom of the page */
@@ -1046,12 +1050,13 @@ label.error {
   position: relative;
   margin: 0 auto;
   width: 980px;
+  height: 800px;
   padding-top: 10px;
 }
 
 #footer .inner .footer-logo {
-  float: left;
-  width: 320px;
+  width: 216px;
+  margin: auto;
 }
 
 #footer .inner .footer-links {
