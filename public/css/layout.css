@@ -98,6 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
+  background: url("../img/logo.png");
+  background-size: 150px 226px;
   position: absolute;
   left: 428px;
   height: 226px;
