@@ -13,9 +13,9 @@ At the bottom you will find the 'helper' section, which contaibs classes to hie 
 
 body {
   color: #312b2b;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
   background: url("../img/bg-spine.png") #312b2b fixed repeat;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 * {
@@ -194,19 +194,25 @@ ul.main-menu li.gap {
   position: relative;
   margin: 0 auto;
   width: 1000px;
-  height: 650px;
   display: block;
 }
 
 #about-me .inner .intro {
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
-#about-me .inner .intro p {
-  float: left;
-  width: 859px;
+#about-me .inner div a {
+  color: #d12828;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#about-me .inner .intro div {
+  width: 700px;
   text-align: justify;
   margin: 0;
+  display: inline-block;
 }
 
 #about-me .inner .intro img {
@@ -446,7 +452,7 @@ a.red-btn {
   position: relative;
   margin: 0 auto;
   width: 980px;
-  height: 720px;
+  height: 820px;
   display: block;
 }
 
@@ -496,72 +502,38 @@ a.red-btn {
   position: relative;
   margin: 0 auto;
   width: 980px;
-  height: 1090px;
+  height: 600px;
   display: block;
 }
 
-#blog .inner .posts {
-  width: 600px;
-  float: left;
+#blog .inner .posts p {
+  margin-bottom: 40px;
 }
 
-#blog .inner .posts .single-post {
-  float: left;
-  margin: 0;
-  margin-bottom: 60px;
-  border-bottom: 2px dashed #fff;
-  padding-bottom: 40px;
-}
-
-#blog .inner .posts img {
-  float: left;
-  border: 5px solid #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  margin: 10px 25px 0 0 ;
-  width: 235px;
-}
-
-#blog .inner .posts h2 {
-  float: left;
-  margin: 0;
-  width: 320px;
-}
-
-#blog .inner .posts p.post-info {
-  font-size: 12px;
-  float: left;
-  margin: 0 0 10px 0;
-  width: 320px;
-  padding-bottom: 5px;
-  border-bottom: 1px dashed #999;
-}
-
-#blog .inner .posts p.post-info em {
-  color: #cf2a2a;
-}
-
-#blog .inner .posts p.post-info strong {
-  color: #a9a9a9;
-  font-weight: bold;
-}
-
-#blog .inner .posts p.date {
-  float: left;
+#blog .inner .posts div#price-and-extras ul {
+  float: right;
+  width: 330px;
   margin: 5px 10px 0 0;
+  padding-left: 0px;
+}
+
+#blog .inner .posts div#price-and-extras ul li {
+  margin: 15px 10px 0 0;
   background: #a21313;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  border: 1px dashed #730b0b;
-  font-size: 20px;
-  font-weight: bold;
-  width: 35px;
-  line-height: 20px;
-  padding: 5px;
-
+  border: 1px solid #730b0b;
+  font-family: "Roadstar-Italic";
+  font-size: 28px;
+  padding: 6px 10px 0px 10px;
+  list-style: none;
 }
+
+#blog .inner .posts div#price-and-extras ul li span {
+  margin-right: 3px;
+}
+
 
 #blog .inner .posts p.post-intro {
   float: left;
@@ -1097,6 +1069,11 @@ label.error {
   margin-top: 150px;
 }
 
+#skyline-footer .inner #skyline p {
+  text-align: center;
+  padding-top: 220px;
+  color: #7c7c7c;
+}
 /* ===== Page Splitter Stiching - Dividing the content boxes ===== */
 
 /* .splitter is used for the top black bottom grey sections */
