@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/logo.png");
   background-size: 150px 226px;
   position: absolute;
-  left: 428px;
+  left: 422px;
   height: 226px;
   width: 150px;
   display: block;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul.main-menu {
-  padding-left: 64px;
+  padding-left: 57px;
 }
 
 ul.main-menu li {
@@ -680,6 +680,7 @@ label.error {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  height: 350px;
 }
 
 #contact .inner .map iframe{
