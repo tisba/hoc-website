@@ -461,7 +461,7 @@ a.red-btn {
   position: relative;
   margin: 0 auto;
   width: 980px;
-  height: 820px;
+  /* height: 820px; */
   display: block;
 }
 
@@ -473,29 +473,53 @@ a.red-btn {
 
 #method .inner .workflow ul li {
   height: 280px;
-  float: left;
+  /* float: left; */
   margin-right: 47px;
 }
 
-#method .inner .workflow ul li.last {
-  height: 280px;
+#method .inner .workflow ul li img {
   float: left;
-  margin-right: 0;
+  margin-right: 20px;
+}
+
+#method .inner .workflow ul li div p {
+  float: left;
+  display: inline-block;
+  width: 420px;;
+}
+
+#method .inner .workflow ul li div ul {
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+}
+
+#method .inner .workflow ul li div ul li {
+  height: auto;
+  /* font-family: "Roadstar-Italic"; */
+  font-size: 17px;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+#method .inner .workflow ul li div ul li span {
+  padding-right: 4px;
+  font-size: 20px;
 }
 
 #method .inner .workflow h2 {
   color: #312b2b;
-  text-align: center;
-  border-bottom: 4px dashed #980e0c;
+  /* text-align: center; */
+  /* border-bottom: 4px dashed #980e0c; */
   padding-bottom: 7px;
   margin-top: 5px;
-  margin-bottom: 15px;
-  width: 200px;
+  margin-bottom: 10px;
+  /* width: 200px; */
 }
 
 #method .inner .workflow p {
-  width: 200px;
-  text-align: center;
+  /* width: 200px; */
+  /* text-align: center; */
   padding: 0;
   margin: 0;
 }
