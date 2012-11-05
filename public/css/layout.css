@@ -16,6 +16,7 @@ body {
   font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
   background: url("../img/bg-spine.png") #312b2b fixed repeat;
   font-size: 16px;
+  opacity: 0.9999;
 }
 
 * {
