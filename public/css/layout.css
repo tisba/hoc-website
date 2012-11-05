@@ -174,14 +174,13 @@ ul.main-menu li.gap {
 }
 
 #welcome .inner #home-office-label {
-  background-image: url("../img/label.png");
-  background-position: bottom center no-repeat;
+  background: url("../img/label.png") no-repeat;
   display: block;
-  width: 980px;
-  height: 189px;
-  margin: auto;
+  width: 653px;
+  height: 212px;
   margin-top: 35px;
   margin-bottom: 50px;
+  margin-left: 216px;
 }
 
 /* ===== About Me Section ===== */
