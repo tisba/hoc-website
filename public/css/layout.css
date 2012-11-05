@@ -203,8 +203,8 @@ ul.main-menu li.gap {
 }
 
 #about-me .inner div a {
-  color: #d12828;
-  text-decoration: none;
+  color: #a6a6a6;
+  text-decoration: underline;
   font-style: italic;
 }
 
@@ -218,6 +218,7 @@ ul.main-menu li.gap {
 #about-me .inner .intro img {
   float: left;
   margin-right: 20px;
+  margin-top: 12px;
   border: 3px solid #fff;
   -webkit-transition: ima 0.5s ease;
   -moz-transition: all 0.5s ease;
