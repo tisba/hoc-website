@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul.main-menu {
-  padding-left: 57px;
+  padding-left: 3px;
 }
 
 ul.main-menu li {
@@ -186,7 +186,8 @@ ul.main-menu li.gap {
 /* ===== About Me Section ===== */
 
 #about-me {
-  background: url("../img/texture2.png") #d6d6d6 repeat ;
+  background: url("../img/texture1.png") #231d1e repeat;
+  color: #fff;
 }
 
 #about-me .inner {
@@ -389,7 +390,8 @@ a.red-btn {
 /* ===== My Work Section ===== */
 
 #my-work {
-  background: url("../img/texture1.png") #231d1e repeat;
+  background: url("../img/texture2.png") #d6d6d6 repeat;
+  color: #312b2b;
 }
 
 #my-work .inner {
@@ -560,74 +562,6 @@ a.text-link {
   width: 980px;
   height: 550px;
   display: block;
-}
-
-/* ===== Contact Section - Contact Form ===== */
-
-#contact .inner .contact-form {
-  margin-top: 30px;
-}
-
-#contact .inner .contact-form p {
-  color: #312b2b;
-}
-
-#contact .inner .contact-form fieldset.text-fields {
-  float: left;
-  width: 480px;
-  margin-right: 10px;
-}
-
-#contact .inner .contact-form fieldset.text-block {
-  float: right;
-  width: 480px;
-}
-
-#contact .inner .contact-form fieldset input {
-  width: 480px;
-  padding: 15px 0 15px 10px;
-  border: none;
-  margin-bottom: 10px;
-  color: #999;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-#contact .inner .contact-form fieldset input:focus {
-  color: #333;
-}
-
-/* laber.error is the class used to style the error messages on validation */
-
-label.error {
-  color: #f00;
-  top: 350px;
-  display: block;
-  position: absolute;
-  font-size: 12px;
-  color: #f00;
-}
-
-#contact .inner .contact-form fieldset textarea {
-  width: 450px;
-  height: 130px;
-  border: none;
-  padding: 15px;
-  color: #999;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-#contact .inner .contact-form fieldset textarea:focus {
-  color: #333;
-}
-
-#contact .inner .contact-form .red-btn {
-  color: #fff;
-  float: right;
-  margin-top: 10px;
 }
 
 #contact .inner .details {
