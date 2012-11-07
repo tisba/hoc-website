@@ -474,11 +474,18 @@ a.red-btn {
 #method .inner .workflow ul li {
   margin-right: 47px;
   margin-bottom: 50px;
+  height: 262px;
 }
 
 #method .inner .workflow ul li img {
   float: left;
   margin-right: 20px;
+}
+
+#method .inner .workflow ul li div p {
+  display: inline-block;
+  text-align: justify;
+  width: 680px;
 }
 
 #method .inner .workflow ul li div p {
