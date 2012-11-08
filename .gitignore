@@ -34,3 +34,6 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+
+# Deployment
+_deploy
